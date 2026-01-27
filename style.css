@@ -256,14 +256,13 @@ a:hover>i {
 /*carte*/
 /*carte de client et benifice*/
 .carte {
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.215);
-    border-radius: 20px;
+    
     padding: 25px;
-    width: 70%;
+    width: 100%;
     margin-bottom: auto;
     margin-top: auto;
     object-fit:cover ;
-    border: 3px solid black
+   
 
 
 }
@@ -291,15 +290,14 @@ a:hover>i {
 
 }
 
-.cartecontacternouus{
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.215);
-    border-radius: 20px;
+.carte5image{
+ 
     padding: 25px;
-    width: 30%;
+    width: 100%;
     margin-bottom: auto;
     margin-top: auto;
     object-fit:cover ;
-    border: 3px solid black
+   background-color: #c9ae88;
 
 }
 .cartesuivernous{
