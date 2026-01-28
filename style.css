@@ -329,15 +329,15 @@ a:hover>i {
 
 /*carte*/
 
-.carte {
+.certeMeilleurAappli {
 
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.215);
     border-radius: 20px;
-    padding: 20px;
-    width: 33%;
+    padding: 20px 10px 20px 20px;
+    width: 25%;
     object-fit: cover;
     border: 3px solid;
-    background-color: #E97963;
+    background-color: #F6DEB8;
 
 
 
