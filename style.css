@@ -1,5 +1,6 @@
 /*recette*/
 
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 * {
     margin: 0%;
@@ -7,8 +8,8 @@
     box-sizing: border-box;
 }
 
-.marginright{
-  margin-right: 20px;
+.marginright {
+    margin-right: 20px;
 }
 
 
@@ -59,9 +60,11 @@
 .align-center {
     align-items: center;
 }
-.txtalign{
+
+.txtalign {
     text-align: center;
 }
+
 .align-start {
     align-items: flex-start;
 }
@@ -90,12 +93,15 @@
 .w40 {
     width: 40%;
 }
-.w10{
+
+.w10 {
     width: 10;
 }
-.w60{
+
+.w60 {
     width: 60%;
 }
+
 .w100 {
     width: 100%;
 }
@@ -107,9 +113,11 @@
 .w48 {
     width: 48%;
 }
-.w40{
-    width:40%;
+
+.w40 {
+    width: 40%;
 }
+
 .w50 {
     width: 50%;
 }
@@ -129,14 +137,21 @@
 .w68 {
     width: 68%;
 }
-.w70{
+
+.w70 {
     width: 70%;
 }
-.w75{
+
+.w75 {
     width: 75%;
 }
-.w80{
+
+.w80 {
     width: 80%;
+}
+
+.w90{
+    width: 90%;
 }
 .space-between {
     justify-content: space-between;
@@ -178,15 +193,14 @@ h2,
 h3,
 h4,
 h5,
-h6,
-p,
-
-.title {
-    margin-bottom: 16px;
-    color: var(--premier-plan);
-    font-weight: bold;
+h6{
+    
+  font-family: "Baloo Bhai 2", sans-serif;
 }
 
+p, a {
+    font-family: "Inter", sans-serif;
+}
 .align-center {
     align-items: center;
 }
@@ -195,8 +209,13 @@ h1 {
     font-size: 38px;
 }
 
+.texte-blanc {
+    color: white;
+}
+
 h2 {
     font-size: 32px;
+    margin-bottom: 50px;
 }
 
 h3 {
@@ -209,7 +228,9 @@ h4 {
 
 p {
     line-height: 1.5;
-    margin-bottom: 8px;
+    margin-bottom: 1px;
+    font-size: 14px;
+    
 }
 
 a {
@@ -237,9 +258,11 @@ a {
 .mt {
     margin-top: 100px;
 }
-.mb{
+
+.mb {
     margin-bottom: 64px;
 }
+
 .m-auto {
     margin-left: auto;
     margin-right: auto;
@@ -293,7 +316,7 @@ a:hover>i {
     background-size: cover;
     background-position: center;
     height: 90vh;
-    background-color: #c9ae88;
+    
 }
 
 .image {
@@ -308,11 +331,13 @@ a:hover>i {
 
 .carte {
 
-    padding: 25px;
-    width: 100%;
-    margin-bottom: auto;
-    margin-top: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.215);
+    border-radius: 20px;
+    padding: 20px;
+    width: 33%;
     object-fit: cover;
+    border: 3px solid;
+    background-color: #E97963;
 
 
 
@@ -323,9 +348,10 @@ a:hover>i {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.215);
     border-radius: 20px;
     padding: 20px;
-    width: 60px;
+    width: 40%;
     object-fit: cover;
-    border: 3px solid black
+    border: 3px solid;
+    background-color: #E97963;
 }
 
 
@@ -333,58 +359,76 @@ a:hover>i {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.215);
     border-radius: 20px;
     padding: 20px;
-    width: 80%;
+    width: 10%;
     margin-bottom: auto;
     margin-top: auto;
     object-fit: cover;
-    border: 3px solid black
-}
-.divtitretxt{
-    padding: 5px;
-    width: 33%;
-    margin-bottom: auto;
-    margin-top: auto;
-    object-fit: cover;
-    background-color: #c9ae88;
-    border-radius: 25px;
-}
-.trai{
-    width: 70px;
-    height: 4px;
-    background-color: black;
+    border: 3px solid;
+    background-color: #E97963;
     
 }
-.round{
-    width: 8px;
-    height: 8px;
-    border-radius: 80px;
-    background-color: black;
-    align-items: flex-end;
-}
-.carte5image {
 
-    padding: 25px;
-    width: 100%;
+.divtitretxt {
+    padding: px;
+    width: 50px;
     margin-bottom: auto;
     margin-top: auto;
     object-fit: cover;
-    background-color: #c9ae88;
+
+    border-radius: 25px;
+    color: white;
 }
+
+.divtitretxt {
+    padding: 25px;
+    width: 90%;
+    margin-bottom: auto;
+    margin-top: auto;
+    object-fit: cover;
+
+    border-radius: 25px;
+}
+
+.trai {
+    width: 100px;
+    height: 4px;
+    background-color: black;
+
+}
+
+.round {
+    width: 8px;
+    height: 8px;
+    border-radius: 8px;
+    background-color: black;
+
+
+}
+
+.traitlegend {
+    display: flex;
+    align-items: center;
+
+}
+
+
+.bg-jaune-pale{
+    background-color: #F6DEB8;
+}
+
 .bg-orange {
-        padding: 25px;
-        width: 100%;
-        margin-bottom: auto;
-        margin-top: auto;
-        object-fit: cover;
-        background-color:#E97963;
-}.bg-beige{
-   
-  background-color: #FFF9EA;
-  }
-.bg-yelow{
-  background-color:rgba(254, 224, 149, 1) ;
+    background-color: #E97963;
 }
-.spanchifre{
+
+.bg-beige {
+    background-color: #FFF9EA;
+}
+
+.bg-yelow {
+    background-color: rgba(254, 224, 149, 1);
+}
+
+.spanchifre {
     background-color: #E97963;
     color: white;
     margin-right: 5px;
@@ -392,66 +436,185 @@ a:hover>i {
     border-radius: 10px;
 
 }
-.spanboite{
+
+.spanboite {
     margin-right: 15px;
 }
 
 
-    .cartesuivernous {
-        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.215);
-        border-radius: 20px;
-        padding: 25px;
-        width: 20%;
-        margin-bottom: auto;
-        margin-top: auto;
-        object-fit: cover;
-        border: 3px solid black
-    }
+.cartesuivernous {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.215);
+    border-radius: 20px;
+    padding: 25px;
+    width: 20%;
+    margin-bottom: auto;
+    margin-top: auto;
+    object-fit: cover;
+    border: 3px solid black
+}
 
-    .cartetitrebutton {
+.cartetitrebutton {
 
-        border-radius: 20px;
-        padding: 25px;
-        width: 30%;
-        margin-bottom: auto;
-        margin-top: auto;
-        object-fit: cover;
-
-
-
-    }
-
-    .img {
-        width: 33%;
-        border-radius: 10px;
-    }
-
-    .liste-puce {
-        list-style-type: none;
-    }
-
-    /*fotter*/
-
-    .btn {
-        background-color: #E97963;
-        color: white;
-        padding: 5px 15px;
-        display: inline-block;
-        text-decoration: none;
-        font-weight: 500;
-        border-radius: 10px;
-
-    }
-
-    footer {
-        background-color: rgb(173, 132, 88);
-        width: 100%;
+    border-radius: 20px;
+    padding: 25px;
+    width: 30%;
+    margin-bottom: auto;
+    margin-top: auto;
+    object-fit: cover;
 
 
-        padding: 5px 15px;
+
+}
+
+.img {
+    width: 33%;
+    border-radius: 10px;
+}
+
+.liste-puce {
+    list-style-type: none;
+}
+
+/*fotter*/
+
+.btn {
+    background-color: #E97963;
+    color: white;
+    padding: 5px 15px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 500;
+    border-radius: 10px;
+
+}
+
+footer {
+    background-color: rgb(173, 132, 88);
+    width: 100%;
 
 
-        margin-top: 100px;
+    padding: 5px 15px;
 
-    }
 
+    margin-top: 100px;
+
+}
+
+
+
+.bg-color {
+    background-color: #F6DEB8;
+}
+
+
+
+/*boutons appstore*/
+
+.playstore-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #000;
+    border-radius: 9999px;
+    background-color: rgba(0, 0, 0, 1);
+    padding: 0.625rem 1.5rem;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    outline: 0;
+    transition: all 0.2s ease;
+    text-decoration: none;
+}
+
+.playstore-button:hover {
+    background-color: transparent;
+    color: rgba(0, 0, 0, 1);
+}
+
+.icon {
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+.texts {
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    line-height: 1;
+}
+
+.text-1 {
+    margin-bottom: 0.25rem;
+    font-size: 0.75rem;
+    line-height: 1rem;
+}
+
+.text-2 {
+    font-weight: 600;
+}
+
+
+
+/*bouttons playstore*/
+
+.playstore-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #000;
+    border-radius: 9999px;
+    background-color: rgba(0, 0, 0, 1);
+    padding: 0.625rem 1.5rem;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    outline: 0;
+    transition: all .2s ease;
+    text-decoration: none;
+}
+
+.playstore-button:hover {
+    background-color: transparent;
+    color: rgba(0, 0, 0, 1);
+}
+
+.icon {
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+.texts {
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    line-height: 1;
+}
+
+.text-1 {
+    margin-bottom: 0.25rem;
+    font-size: 0.75rem;
+    line-height: 1rem;
+}
+
+.text-2 {
+    font-weight: 600;
+}
+
+.bg-sommaire{
+    background-color: #F1745B;
+}
+
+
+
+
+
+
+
+
+section {
+    padding: 90px 0;
+}
+
+.section-padding-top-only {
+    padding: 90px 0px 0px 0px;
+}
