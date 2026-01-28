@@ -59,7 +59,9 @@
 .align-center {
     align-items: center;
 }
-
+.txtalign{
+    text-align: center;
+}
 .align-start {
     align-items: flex-start;
 }
@@ -88,7 +90,12 @@
 .w40 {
     width: 40%;
 }
-
+.w10{
+    width: 10;
+}
+.w60{
+    width: 60%;
+}
 .w100 {
     width: 100%;
 }
@@ -100,7 +107,9 @@
 .w48 {
     width: 48%;
 }
-
+.w40{
+    width:40%;
+}
 .w50 {
     width: 50%;
 }
@@ -120,7 +129,15 @@
 .w68 {
     width: 68%;
 }
-
+.w70{
+    width: 70%;
+}
+.w75{
+    width: 75%;
+}
+.w80{
+    width: 80%;
+}
 .space-between {
     justify-content: space-between;
 
@@ -220,7 +237,9 @@ a {
 .mt {
     margin-top: 100px;
 }
-
+.mb{
+    margin-bottom: 64px;
+}
 .m-auto {
     margin-left: auto;
     margin-right: auto;
@@ -239,7 +258,7 @@ a {
 /*header*/
 header {
     background-color: #FFF9EA;
-    padding: 16px 64px;
+    padding: 8px 64px;
     position: sticky;
     top: 0px;
     left: 0px;
@@ -278,15 +297,15 @@ a:hover>i {
 }
 
 .image {
-    background-image: url(asset/Pexels\ Photo\ by\ cottonbro\ studio.jpg);
+    background-image: url(asset/image\ femme\ cuisine.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 90vh;
+    height: 60vh;
 }
 
 /*carte*/
-/*carte de client et benifice*/
+
 .carte {
 
     padding: 25px;
@@ -299,7 +318,7 @@ a:hover>i {
 
 }
 
-/*carte de produits*/
+
 .cart {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.215);
     border-radius: 20px;
@@ -309,7 +328,7 @@ a:hover>i {
     border: 3px solid black
 }
 
-/*carte histoire*/
+
 .car {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.215);
     border-radius: 20px;
@@ -320,7 +339,24 @@ a:hover>i {
     object-fit: cover;
     border: 3px solid black
 }
-
+.divtitretxt{
+    padding: px;
+    width: 50px;
+    margin-bottom: auto;
+    margin-top: auto;
+    object-fit: cover;
+    background-color: #c9ae88;
+    border-radius: 25px;
+}
+.divtitretxt{
+    padding: 25px;
+    width: 90%;
+    margin-bottom: auto;
+    margin-top: auto;
+    object-fit: cover;
+    
+    border-radius: 25px;
+}
 .carte5image {
 
     padding: 25px;
@@ -348,6 +384,9 @@ a:hover>i {
     background-color: #E97963;
     color: white;
     margin-right: 5px;
+    padding: 6px;
+    border-radius: 10px;
+
 }
 .spanboite{
     margin-right: 15px;
@@ -411,3 +450,4 @@ a:hover>i {
         margin-top: 100px;
 
     }
+
