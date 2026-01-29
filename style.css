@@ -1,48 +1,45 @@
-/*recette*/
-
+/* =========================
+   IMPORTATION DES POLICES
+========================= */
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
+
+/* =========================
+   RESET GLOBAL
+========================= */
 * {
-    margin: 0%;
-    padding: 0%;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
-.marginright {
-    margin-right: 20px;
+a {
+    text-decoration: none;
+    color: black;
 }
 
 
-
-/*class de flexbox*/
+/* =========================
+   CONTENEURS
+========================= */
 .container-1000 {
     max-width: 1000px;
-
-    margin-left: auto;
-    margin: auto;
     width: 100%;
-
+    margin: auto;
 }
 
+.padding-50{
+    padding: 50px 0;
+}
+
+.padding-50{
+    padding: 0px 50px;
+}
+/* =========================
+   UTILITAIRES FLEXBOX
+========================= */
 .flex {
     display: flex;
-}
-
-.flex2 {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.flex-column {
-    flex-direction: column;
-}
-
-.reverse {
-    flex-direction: row-reverse;
-}
-
-.justify-between {
-    justify-content: space-between;
 }
 
 .space-between {
@@ -61,24 +58,12 @@
     align-items: center;
 }
 
-.txtalign {
-    text-align: center;
-}
-
-.align-start {
-    align-items: flex-start;
-}
-
 .align-end {
     align-items: flex-end;
 }
 
-.alternate>div:nth-child(2n) {
-    flex-direction: row-reverse;
-}
-
-.gap {
-    gap: var(--gap);
+.column-direction{
+    flex-direction: column;
 }
 
 .gap12 {
@@ -89,128 +74,58 @@
     gap: 20px;
 }
 
-/*class de largeur*/
-.w40 {
-    width: 40%;
+
+/* =========================
+   LARGEURS (UTILITAIRES)
+========================= */
+.w10 { width: 10%; }
+.w15 { width: 15%; }
+.w22 { width: 22%; }
+.w25 { width: 25%; }
+.w33 { width: 33%; }
+.w40 { width: 40%; }
+.w48 { width: 48%; }
+.w50 { width: 50%; }
+.w60 { width: 60%; }
+.w68 { width: 68%; }
+.w70 { width: 70%; }
+.w75 { width: 75%; }
+.w80 { width: 80%; }
+.w90 { width: 90%; }
+.w100 { width: 100%; }
+
+
+/* =========================
+   ESPACEMENTS
+========================= */
+.marginright {
+    margin-right: 20px;
 }
 
-.w10 {
-    width: 10;
+.m-auto {
+   margin: auto;
 }
 
-.w60 {
-    width: 60%;
-}
-
-.w100 {
-    width: 100%;
-}
-
-.w {
-    width: 100px;
-}
-
-.w48 {
-    width: 48%;
-}
-
-.w40 {
-    width: 40%;
-}
-
-.w50 {
-    width: 50%;
-}
-
-.w33 {
-    width: 33px;
-}
-
-.w22 {
-    width: 22%;
-}
-
-.w25 {
-    width: 25%;
-}
-
-.w68 {
-    width: 68%;
-}
-
-.w70 {
-    width: 70%;
-}
-
-.w75 {
-    width: 75%;
-}
-
-.w80 {
-    width: 80%;
-}
-
-.w90{
-    width: 90%;
-}
-.space-between {
-    justify-content: space-between;
-
-
-
-}
-
-.space-around {
-    justify-content: space-around;
-
-}
-
-.margin-top {
-    margin-top: 80px;
-}
-
-.margin-top-20 {
+.mt-20{
     margin-top: 20px;
 }
 
-.margin-bottom {
-    margin-bottom: 20px;
-}
 
-.align-center {
-    align-items: center;
-}
-
-.font-size {
-    font-size: 14px;
-}
-
-
-
-/*Styliser du texte*/
+/* =========================
+   TYPOGRAPHIE
+========================= */
 h1,
 h2,
 h3,
 h4,
 h5,
-h6{
-    
-  font-family: "Baloo Bhai 2", sans-serif;
+h6 {
+    font-family: "Baloo Bhai 2", sans-serif;
 }
 
-p, a {
+p,
+a {
     font-family: "Inter", sans-serif;
-}
-.align-center {
-    align-items: center;
-}
-
-h1 {
-    font-size: 38px;
-}
-
-.texte-blanc {
-    color: white;
 }
 
 h2 {
@@ -219,78 +134,82 @@ h2 {
 }
 
 h3 {
-    font-size: 24px;
+    font-size: 40px;
 }
 
 h4 {
-    font-size: 18px;
+    font-size: 25px;
+}
+
+h5 {
+    font-size: 20px;
 }
 
 p {
-    line-height: 1.5;
-    margin-bottom: 1px;
-    font-size: 14px;
-    
+    font-size: 18px;
 }
 
-a {
-    color: var(--premier-plan);
-    text-decoration: none;
+font-40{
+     font-size: 40px;
 }
 
-.text-center {
+.txtalign-center {
     text-align: center;
 }
 
-/*margin au padding*/
-.mt {
-    margin-top: 64px;
+.texte-blanc {
+    color: white;
 }
 
-.mt {
-    margin-top: 32px;
+.texte-rouge {
+    color: #E97963;
 }
 
-.mt {
-    margin-top: 16px;
-}
-
-.mt {
-    margin-top: 100px;
-}
-
-.mb {
-    margin-bottom: 64px;
-}
-
-.m-auto {
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.p-16 {
-    padding: 16px;
-}
-
-.ptb-32 {
-    padding: 32px 0;
+.liste-puce {
+    list-style: none;
 }
 
 
+/* =========================
+   BOUTONS 
+========================= */
+.btn {
+    background-color: #E97963;
+    color: white;
+    padding: 10px 25px;
+    display: inline-block;
+    font-weight: 500;
+    border-radius: 10px;
+}
 
-/*header*/
+.btn-download{
+    border-radius: 5px;
+}
+
+/* =========================
+   SECTIONS 
+========================= */
+section {
+    padding: 90px 0;
+}
+
+.section-padding-haut-seulement {
+    padding-top: 90px;
+}
+
+
+
+
+/* =========================
+ HEADER
+========================= */
 header {
     background-color: #FFF9EA;
     padding: 8px 64px;
     position: sticky;
-    top: 0px;
-    left: 0px;
+    top: 0;
     z-index: 999;
     width: 100%;
-}
-
-.logo {
-    width: 160px;
 }
 
 header nav {
@@ -299,120 +218,149 @@ header nav {
 }
 
 header nav a {
-    color: var(--premier-plan);
-    transition: color .33s ease;
+    transition: color 0.33s ease;
+}
+
+.logo {
+    width: 160px;
+}
+
+.logo-txt {
+    font-weight: 700;
+    color: #000;
+    margin-left: 10px;
 }
 
 header a:hover,
 a:hover,
-a:hover>i {
-    color: var(--hover)
+a:hover > i {
+    color: var(--hover);
 }
 
-/*section hero*/
+
+/* =========================
+   SECTION HERO
+========================= */
 .hero {
-    background-image: url(asset/Hero\ \(1\).svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
     height: 90vh;
-    
+    background: url("asset/Hero (1).svg") center / cover no-repeat;
 }
 
-.image {
-    background-image: url(asset/image\ femme\ cuisine.jpg);
+.image-tomate {
+    height: 400px;
+    background: url("asset/image femme cuisine.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
-    height: 60vh;
 }
 
-/*carte*/
+.div-texte-hero {
+    margin-left: 50px;
+}
 
-.certeMeilleurAappli {
+.div-texte-hero h1 {
+    font-size: 45px;
+}
 
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.215);
-    border-radius: 20px;
-    padding: 20px 10px 20px 20px;
-    width: 25%;
-    object-fit: cover;
-    border: 3px solid;
-    background-color: #F6DEB8;
-
-
-
+.div-texte-hero p {
+    font-size: 25px;
 }
 
 
-.cart {
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.215);
-    border-radius: 20px;
-    padding: 20px;
-    width: 40%;
-    object-fit: cover;
-    border: 3px solid;
-    background-color: #E97963;
-}
-
-
-.car {
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.215);
-    border-radius: 20px;
-    padding: 20px;
-    width: 10%;
-    margin-bottom: auto;
-    margin-top: auto;
-    object-fit: cover;
-    border: 3px solid;
-    background-color: #E97963;
-    
-}
-
-.divtitretxt {
-    padding: px;
-    width: 50px;
-    margin-bottom: auto;
-    margin-top: auto;
-    object-fit: cover;
-
-    border-radius: 25px;
-    color: white;
-}
-
-.divtitretxt {
-    padding: 25px;
-    width: 90%;
-    margin-bottom: auto;
-    margin-top: auto;
-    object-fit: cover;
-
-    border-radius: 25px;
-}
-
+/* =========================
+   SECTION "UNE APP DEUX OPTIONS"
+========================= */
 .trai {
     width: 100px;
     height: 4px;
-    background-color: black;
-
+    background-color: #000;
 }
 
 .round {
     width: 8px;
     height: 8px;
-    border-radius: 8px;
-    background-color: black;
-
-
+    border-radius: 50%;
+    background-color: #000;
 }
 
 .traitlegend {
     display: flex;
     align-items: center;
+}
 
+.image-options{
+    position: absolute;
+    z-index: -10;
+    transform:translateX(50%);
+    width: 500px;
+    top: -100px;
+}
+
+.box-deux-options{
+    position: relative;
+}
+
+/* =========================
+   SECTION TEMOIGNAGE
+========================= */
+.carte-temoignage {
+    padding: 50px 20px;
+    border-radius: 20px;
+    background-color: #F6DEB8;
+}
+
+.chiffres-abonnes{
+    margin: 20px 0px;
+     font-size: 30px;
+    
+}
+
+.spanboite {
+    margin-right: 10px;
+}
+
+.spanchifre{
+    background-color: #F1745B;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: "Baloo Bhai 2", sans-serif;
+    color: white;
+    font-weight: 700;
+}
+
+.ph-star{
+    color: #F1745B;
+    font-size: 30px;
+}
+
+/* =========================
+   FOOTER
+========================= */
+footer{
+    padding: 50px 0;
+}
+
+.bloc-gauche-footer{
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.logo-footer{
+    margin-bottom: 20px;
+}
+
+.icone-div {
+    width: 40px;
+    height: 40px;
+    border-radius: 300px;
+    font-size: 25px;
 }
 
 
-.bg-jaune-pale{
+/* =========================
+   COULEURS DE FOND
+========================= */
+.bg-jaune-pale {
     background-color: #F6DEB8;
 }
 
@@ -424,197 +372,17 @@ a:hover>i {
     background-color: #FFF9EA;
 }
 
-.bg-yelow {
+.bg-yellow {
     background-color: rgba(254, 224, 149, 1);
 }
 
-.spanchifre {
-    background-color: #E97963;
-    color: white;
-    margin-right: 5px;
-    padding: 6px;
-    border-radius: 10px;
-
-}
-
-.spanboite {
-    margin-right: 15px;
-}
-
-
-.cartesuivernous {
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.215);
-    border-radius: 20px;
-    padding: 25px;
-    width: 20%;
-    margin-bottom: auto;
-    margin-top: auto;
-    object-fit: cover;
-    border: 3px solid black
-}
-
-.cartetitrebutton {
-
-    border-radius: 20px;
-    padding: 25px;
-    width: 30%;
-    margin-bottom: auto;
-    margin-top: auto;
-    object-fit: cover;
-
-
-
-}
-
-.img {
-    width: 33%;
-    border-radius: 10px;
-}
-
-.liste-puce {
-    list-style-type: none;
-}
-
-/*fotter*/
-
-.btn {
-    background-color: #E97963;
-    color: white;
-    padding: 5px 15px;
-    display: inline-block;
-    text-decoration: none;
-    font-weight: 500;
-    border-radius: 10px;
-
-}
-
-footer {
-    background-color: rgb(173, 132, 88);
-    width: 100%;
-
-
-    padding: 5px 15px;
-
-
-    margin-top: 100px;
-
-}
-
-
-
-.bg-color {
-    background-color: #F6DEB8;
-}
-
-
-
-/*boutons appstore*/
-
-.playstore-button {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    border: 2px solid #000;
-    border-radius: 9999px;
-    background-color: rgba(0, 0, 0, 1);
-    padding: 0.625rem 1.5rem;
-    text-align: center;
-    color: rgba(255, 255, 255, 1);
-    outline: 0;
-    transition: all 0.2s ease;
-    text-decoration: none;
-}
-
-.playstore-button:hover {
-    background-color: transparent;
-    color: rgba(0, 0, 0, 1);
-}
-
-.icon {
-    height: 1.5rem;
-    width: 1.5rem;
-}
-
-.texts {
-    margin-left: 1rem;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    line-height: 1;
-}
-
-.text-1 {
-    margin-bottom: 0.25rem;
-    font-size: 0.75rem;
-    line-height: 1rem;
-}
-
-.text-2 {
-    font-weight: 600;
-}
-
-
-
-/*bouttons playstore*/
-
-.playstore-button {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    border: 2px solid #000;
-    border-radius: 9999px;
-    background-color: rgba(0, 0, 0, 1);
-    padding: 0.625rem 1.5rem;
-    text-align: center;
-    color: rgba(255, 255, 255, 1);
-    outline: 0;
-    transition: all .2s ease;
-    text-decoration: none;
-}
-
-.playstore-button:hover {
-    background-color: transparent;
-    color: rgba(0, 0, 0, 1);
-}
-
-.icon {
-    height: 1.5rem;
-    width: 1.5rem;
-}
-
-.texts {
-    margin-left: 1rem;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    line-height: 1;
-}
-
-.text-1 {
-    margin-bottom: 0.25rem;
-    font-size: 0.75rem;
-    line-height: 1rem;
-}
-
-.text-2 {
-    font-weight: 600;
-}
-
-.bg-sommaire{
+.bg-rouge {
     background-color: #F1745B;
 }
 
 
 
-
-
-
-
-
-section {
-    padding: 90px 0;
-}
-
-.section-padding-top-only {
-    padding: 90px 0px 0px 0px;
+.sticky{
+    position: sticky;
+    top: 150px;
 }
