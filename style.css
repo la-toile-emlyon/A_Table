@@ -101,6 +101,7 @@ a {
 .w75 { width: 75%; }
 .w80 { width: 80%; }
 .w90 { width: 90%; }
+.w95 {width: 95%;}
 .w100 { width: 100%; }
 .w130{width: 130%;}
 
@@ -385,6 +386,10 @@ footer{
     padding: 20px;
 
 }
+
+
+
+
 .bg-beige {
     background-color: #FFF9EA;
 }
@@ -415,4 +420,44 @@ footer{
 .caroussel-container{
     width: 100%;
     overflow-x: scroll ;
+}
+
+
+/* =================================== 
+SECTION PROBLEMATIQUE - DOC 
+===================================*/
+.div-problematique{
+    max-width: 1000px;
+    padding: 40px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.p-problematique{
+    font-size: 35px;
+}
+
+
+
+/* SECTION IDEE - DOC */
+.div-idee{
+     max-width: 1000px;
+    padding: 40px;
+    border-radius: 20px;
+    text-align: center;
+
+}
+
+.p-idee{
+    color: #F1745B;
+    font-size: 25px;
+}
+
+.span-idee{
+    font-weight: 800;
+}
+
+/* SECTION CONTEXTE-DOC */
+.p40{
+    padding: 40px;
 }
