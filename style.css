@@ -87,6 +87,7 @@ a {
 /* =========================
    LARGEURS (UTILITAIRES)
 ========================= */
+.w6 { width: 6%; }
 .w10 { width: 10%; }
 .w15 { width: 15%; }
 .w22 { width: 22%; }
@@ -120,7 +121,9 @@ a {
 .mt-20{
     margin-top: 20px;
 }
-
+.mt-70{
+    margin-top: 70px;
+}
 
 /* =========================
    TYPOGRAPHIE
@@ -141,7 +144,7 @@ a {
 
 h2 {
     font-size: 32px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 h3 {
@@ -203,7 +206,8 @@ font-40{
    SECTIONS 
 ========================= */
 section {
-    padding: 90px 0;
+    padding: 50px 0;
+    scroll-margin-top: 50px;
 }
 
 .section-padding-haut-seulement {
