@@ -176,6 +176,9 @@ font-40{
 .texte-blanc {
     color: white;
 }
+.texte-maron{
+    color: #73382D
+}
 
 .texte-rouge {
     color: #E97963;
@@ -348,6 +351,14 @@ a:hover > i {
     color: #F1745B;
     font-size: 30px;
 }
+/*=========== La teams*/
+.round-jaune{
+     width: 175px;
+  height: 175px;
+  border-radius: 50%;
+  object-fit: cover;
+    background-color: #FDAA02;
+}
 
 /* =========================
    FOOTER
@@ -465,7 +476,9 @@ SECTION PROBLEMATIQUE - DOC
 .p40{
     padding: 40px;
 }
-
+.chiffre-contexte{
+    font-size: 70px;
+}
 
 /* SECTION test utilisateur */
 
