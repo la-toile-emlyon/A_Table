@@ -465,3 +465,23 @@ SECTION PROBLEMATIQUE - DOC
 .p40{
     padding: 40px;
 }
+
+
+/* SECTION test utilisateur */
+
+
+.font-25{
+     font-size: 25px;
+}
+
+.avant-apres-titre{
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.div-retour-test{
+    padding:40px;
+    border-radius:20px;
+    color: white;
+}
