@@ -18,7 +18,13 @@ a {
     color: black;
 }
 
+.sticky a{
+    color: #fff;
+}
 
+.sticky li{
+    margin-bottom: 8px;
+}
 /* =========================
    CONTENEURS
 ========================= */
@@ -34,6 +40,9 @@ a {
 
 .padding-50{
     padding: 0px 50px;
+}
+.padding-60{
+    padding: 60px 20px;
 }
 /* =========================
    UTILITAIRES FLEXBOX
@@ -93,6 +102,7 @@ a {
 .w80 { width: 80%; }
 .w90 { width: 90%; }
 .w100 { width: 100%; }
+.w130{width: 130%;}
 
 
 /* =========================
@@ -153,6 +163,8 @@ font-40{
      font-size: 40px;
 }
 
+
+
 .txtalign-center {
     text-align: center;
 }
@@ -194,7 +206,7 @@ section {
 }
 
 .section-padding-haut-seulement {
-    padding-top: 90px;
+    padding-top: 150px;
 }
 
 
@@ -367,7 +379,12 @@ footer{
 .bg-orange {
     background-color: #E97963;
 }
+.bg-orange-sommaire{
+    background-color:#E97963 ;
+     border-radius: 20px;
+    padding: 20px;
 
+}
 .bg-beige {
     background-color: #FFF9EA;
 }
@@ -384,5 +401,18 @@ footer{
 
 .sticky{
     position: sticky;
-    top: 150px;
+    top: 130px;
+}
+
+
+/*===================================
+            Caroussel 
+======================================*/
+.caroussel-contenu{
+    width: max-content;
+}
+
+.caroussel-container{
+    width: 100%;
+    overflow-x: scroll ;
 }
