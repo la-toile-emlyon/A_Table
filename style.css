@@ -365,11 +365,8 @@ a:hover > i {
   height: 175px;
   border-radius: 500px;
       padding: 16px;
-      @keyframes slide {
-  0% { left: 0; }
-  50% { left: 15px; }
-  100% { left: 0; }
-}
+
+
 }
 
 
@@ -377,9 +374,11 @@ a:hover > i {
 
 .member {
   text-align: center;
-  position: relative; /* important*/
+  position: relative;
+   /* important*/
 }
- /*la position des carte*/
+ /*la position des carte */
+ 
 .member:nth-child(1) {
   animation: moveRight 3s ease-in-out infinite alternate;
 }
