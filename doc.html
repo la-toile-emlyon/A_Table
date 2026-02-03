@@ -9,7 +9,8 @@
         href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/fill/style.css" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="style.css">
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js" defer></script>
+    <script src="./script.js" defer></script>
 </head>
 
 <!-- header -->
@@ -49,11 +50,11 @@
     <section>
 
         <!--GRANDE DIV-->
-        <div class="flex justify-center align-center bg-jaune-pale">
+        <div class="flex justify-center align-center bg-jaune-pale padding-60">
 
             <!--DIV texte-->
 
-            <div>
+            <div data-aos="fade-right" data-aos-duration="3000">
 
                 <h1>
 
@@ -76,7 +77,7 @@
 
             <!--DIV IMAGE-->
 
-            <div class="w40">
+            <div class="w40" data-aos="fade-left" data-aos-duration="3000">
 
                 <img src="asset/2ecran histoire.png" alt="" class="w100">
 
@@ -144,8 +145,7 @@
 
             <!-- CONTEXTE -->
             <section id="contexte">
-                <h2>Contexte</h2>
-
+                <h2>Contexte</h2> 
                 <p class="mt-20">
                     En France, près de quatre millions de personnes de plus de 60 ans
                     vivent seules et peinent à manger sainement.
@@ -154,9 +154,11 @@
                     au détriment de leur santé et de leur bien-être.
                 </p>
 
+               
+
 
                 <!-- boite quand, ou, qui, quoi -->
-                <div class="flex gap12 mt-20">
+                <div class="flex gap12 mt-20" data-aos="zoom-in-up" data-aos-duration="3000">
 
 
 
@@ -185,7 +187,7 @@
 
                 </div>
                 <!-- grousse div des chifre  -->
-                <div class="flex gap12 mt-20">
+                <div class="flex gap12 mt-20" data-aos="zoom-in"data-aos-duration="3000">
                     <!-- div chifre 7% -->
                     <div class="bg-jaune-pale w33 texte-maron p40">
                         <h5 class="chiffre-contexte">7%</h5>
@@ -209,20 +211,20 @@
             </section>
 
             <!-- PROBLEMATIQUE -->
-            <section id="problematique">
+            <section id="problematique" >
                 <h2>Problématique</h2>
 
-                <div class="bg-orange w100 texte-blanc div-problematique">
+                <div class="bg-orange w100 texte-blanc div-problematique" data-aos="zoom-out"data-aos-duration="3000">
                     <p class="p-problematique">Comment motiver Simone à cuisiner chaque jour ? <br> dans le but de
                         manger sainement </p>
                 </div>
             </section>
 
             <!-- NOTRE IDÉE -->
-            <section id="idee">
+            <section id="idee" >
                 <h2>Notre idée</h2>
 
-                <div class="bg-jaune-pale texte-blanc div-idee">
+                <div class="bg-jaune-pale texte-blanc div-idee" data-aos="zoom-out"data-aos-duration="3000">
                     <p class="p-idee">Une application qui <span class="span-idee">motive Simone à cuisiner</span> en lui
                         permettant de <span class="span-idee"> proposer
                             des ateliers cuisine</span> et de <span class="span-idee">partager ce moment </span>avec de
@@ -444,7 +446,7 @@
 
             </section>
 
-            <!-- TEST UTILISATEUR -->
+            <!--  retour TEST UTILISATEUR -->
             <section id="Retours test-utilisateur">
                 <h2>Retours tests utilisateurs</h2>
                 <p class="font-25">De manière générale, les utilisateurs ont trouvé l’application plutôt intuitive. En
@@ -477,7 +479,7 @@
 
                             <div class="w48">
                                 <p class="avant-apres-titre">APRÉS</p>
-                                <img src="asset/avantapres/listedesingredients apres.png" alt="" class="w100">
+                                <img src="asset/avantapres/listeingredientaprs.png" alt="" class="w100">
                             </div>
                         </div>
 
@@ -608,6 +610,7 @@
                     <!-- div round jaune thomas -->
                      <div class="round-jaune ">
                         <img src="asset/la team/thomas.png" alt="" class="w100">
+                        
 
                      </div>
                       <!-- div round biege saida -->

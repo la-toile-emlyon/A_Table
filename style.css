@@ -145,7 +145,7 @@ a,* {
 
 h2 {
     font-size: 32px;
-    margin-bottom: 30px;
+    margin-bottom: 70px;
 }
 
 h3 {
@@ -163,7 +163,9 @@ h5 {
 p {
     font-size: 18px;
 }
-
+.p-Meilleure-appli{
+    color: #E97963;
+}
 font-40{
      font-size: 40px;
 }
@@ -313,7 +315,7 @@ a:hover > i {
     z-index: -10;
     transform:translateX(50%);
     width: 500px;
-    top: -100px;
+    top: -120px;
 }
 
 .box-deux-options{
