@@ -93,6 +93,7 @@ a {
 .w22 { width: 22%; }
 .w25 { width: 25%; }
 .w33 { width: 33%; }
+.w30{width: 30%;}
 .w40 { width: 40%; }
 .w48 { width: 48%; }
 .w50 { width: 50%; }
@@ -138,7 +139,7 @@ h6 {
 }
 
 p,
-a {
+a,* {
     font-family: "Inter", sans-serif;
 }
 
@@ -358,8 +359,46 @@ a:hover > i {
   border-radius: 50%;
   object-fit: cover;
     background-color: #FDAA02;
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+.round-biege{
+      width: 175px;
+  height: 175px;
+  border-radius: 50%;
+  object-fit: cover;
+    background-color: #FFF9EA;
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.round-orange{
+     width: 175px;
+  height: 175px;
+  border-radius: 50%;
+  object-fit: cover;
+    background-color: #E97963;
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.round-jaune-clair{
+     width: 175px;
+  height: 175px;
+  border-radius: 50%;
+  object-fit: cover;
+    background-color: #FDDF95;
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 /* =========================
    FOOTER
 ========================= */
@@ -497,4 +536,16 @@ SECTION PROBLEMATIQUE - DOC
     padding:40px;
     border-radius:20px;
     color: white;
+}
+
+
+/*===== section  Perspective d’évolution ====== */
+.p-perspective{
+    color: #F1745B;
+    font-size: 25px;
+  
+}
+
+.span-perspective{
+    font-weight: 800;
 }
