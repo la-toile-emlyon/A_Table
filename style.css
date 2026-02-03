@@ -268,6 +268,10 @@ a:hover > i {
     height: 90vh;
     background: url("asset/Hero (1).svg") center / cover no-repeat;
 }
+.hero-doc{
+    padding: 0;
+    margin-bottom: 50px;
+}
 
 .image-tomate {
     height: 400px;
@@ -355,52 +359,16 @@ a:hover > i {
     font-size: 30px;
 }
 /*=========== La teams*/
-.round-jaune{
+
+.rond {
      width: 175px;
   height: 175px;
-  border-radius: 50%;
-  object-fit: cover;
-    background-color: #FDAA02;
-    padding: 16px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  border-radius: 500px;
+      padding: 16px;
 }
 
-.round-biege{
-      width: 175px;
-  height: 175px;
-  border-radius: 50%;
-  object-fit: cover;
-    background-color: #FFF9EA;
-    padding: 16px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-}
-.round-orange{
-     width: 175px;
-  height: 175px;
-  border-radius: 50%;
-  object-fit: cover;
-    background-color: #E97963;
-    padding: 16px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.round-jaune-clair{
-     width: 175px;
-  height: 175px;
-  border-radius: 50%;
-  object-fit: cover;
-    background-color: #FDDF95;
-    padding: 16px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
+
 /* =========================
    FOOTER
 ========================= */
@@ -433,18 +401,17 @@ footer{
     background-color: #F6DEB8;
 }
 
+.bg-jaune-moutarde{
+    background-color: #FDAA02;
+}
 .bg-orange {
     background-color: #E97963;
 }
-.bg-orange-sommaire{
-    background-color:#E97963 ;
+
+.sommaire{
      border-radius: 20px;
     padding: 20px;
-
 }
-
-
-
 
 .bg-beige {
     background-color: #FFF9EA;
@@ -550,4 +517,13 @@ SECTION PROBLEMATIQUE - DOC
 
 .span-perspective{
     font-weight: 800;
+}
+
+/* === section equipe ===*/
+
+.Prenom{
+    font-weight: 800;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 5px;
 }
