@@ -1,0 +1,26 @@
+{
+	"folders": [
+		{
+			"path": "asset/avantapres"
+		},
+		{
+			"path": "asset/highFi"
+		},
+		{
+			"path": "asset/la team"
+		},
+		{
+			"path": "asset/les5imageilparledenous"
+		},
+		{
+			"path": "asset/midFi"
+		},
+		{
+			"path": "asset/Wirframe"
+		}
+	],
+	"settings": {
+		"liveServer.settings.port": 5501,
+		"liveServer.settings.multiRootWorkspaceName": "avantapres"
+	}
+}
